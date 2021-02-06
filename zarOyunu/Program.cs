@@ -17,10 +17,11 @@ namespace zarOyunu
 
 
 
+            zar1 zar2 = new zar1(17);
 
-
-
-
+            Console.WriteLine("zar  2 değeri");
+           
+            Console.WriteLine( zar2.zarAt());
 
         }
     }

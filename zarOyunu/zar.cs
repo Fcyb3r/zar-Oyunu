@@ -6,9 +6,13 @@ namespace zarOyunu
 {
     class zar
     {
-        ///zarın alabileceği mak deger
+      
         int makZarDeg;
         Random random = new Random();
+        /// <summary>
+        /// deger giriniz
+        /// </summary>
+        /// <param name="makZarDeg"></param>
 public zar(int makZarDeg)
         {
             this.makZarDeg = makZarDeg;
